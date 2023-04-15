@@ -14,9 +14,10 @@
 		756EE69029E8540400830A62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 756EE68E29E8540400830A62 /* Main.storyboard */; };
 		756EE69229E8540500830A62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 756EE69129E8540500830A62 /* Assets.xcassets */; };
 		756EE69529E8540500830A62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 756EE69329E8540500830A62 /* LaunchScreen.storyboard */; };
-		756EE6A029E8540500830A62 /* MVPDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756EE69F29E8540500830A62 /* MVPDemoTests.swift */; };
 		756EE6AA29E8540500830A62 /* MVPDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756EE6A929E8540500830A62 /* MVPDemoUITests.swift */; };
 		756EE6AC29E8540500830A62 /* MVPDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756EE6AB29E8540500830A62 /* MVPDemoUITestsLaunchTests.swift */; };
+		75B79A9929EADD280084E99B /* MenuViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B79A9829EADD280084E99B /* MenuViewTests.swift */; };
+		75B79A9B29EAF1120084E99B /* DetailViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B79A9A29EAF1120084E99B /* DetailViewTests.swift */; };
 		75E0DFD529E977E100187001 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E0DFD429E977E100187001 /* MenuViewController.swift */; };
 		75E0DFD729E9788100187001 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E0DFD629E9788100187001 /* DetailViewController.swift */; };
 		75E0DFD929E978B400187001 /* MenuPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E0DFD829E978B400187001 /* MenuPresenter.swift */; };
@@ -60,10 +61,11 @@
 		756EE69429E8540500830A62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		756EE69629E8540500830A62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		756EE69B29E8540500830A62 /* MVPDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MVPDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		756EE69F29E8540500830A62 /* MVPDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVPDemoTests.swift; sourceTree = "<group>"; };
 		756EE6A529E8540500830A62 /* MVPDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MVPDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		756EE6A929E8540500830A62 /* MVPDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVPDemoUITests.swift; sourceTree = "<group>"; };
 		756EE6AB29E8540500830A62 /* MVPDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVPDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		75B79A9829EADD280084E99B /* MenuViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewTests.swift; sourceTree = "<group>"; };
+		75B79A9A29EAF1120084E99B /* DetailViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewTests.swift; sourceTree = "<group>"; };
 		75E0DFD429E977E100187001 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		75E0DFD629E9788100187001 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		75E0DFD829E978B400187001 /* MenuPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuPresenter.swift; sourceTree = "<group>"; };
@@ -125,7 +127,6 @@
 				C93369257D0636370D149BE8 /* Pods-MVPDemoTests.debug.xcconfig */,
 				68AB100B0289AFFF4BCE2D42 /* Pods-MVPDemoTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -171,7 +172,8 @@
 		756EE69E29E8540500830A62 /* MVPDemoTests */ = {
 			isa = PBXGroup;
 			children = (
-				756EE69F29E8540500830A62 /* MVPDemoTests.swift */,
+				75B79A9829EADD280084E99B /* MenuViewTests.swift */,
+				75B79A9A29EAF1120084E99B /* DetailViewTests.swift */,
 			);
 			path = MVPDemoTests;
 			sourceTree = "<group>";
@@ -477,7 +479,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				756EE6A029E8540500830A62 /* MVPDemoTests.swift in Sources */,
+				75B79A9929EADD280084E99B /* MenuViewTests.swift in Sources */,
+				75B79A9B29EAF1120084E99B /* DetailViewTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
